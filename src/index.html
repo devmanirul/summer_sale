@@ -19,7 +19,9 @@
         </h1>
         <div class="flex flex-row justify-center items-center gap-5">
           <p class="text-sm font-medium">Use Promo Code</p>
-          <button class="bg-[#e527b8] px-3 py-1 rounded-md text-white">
+          <button
+            class="coupon-button bg-[#e527b8] px-3 py-1 rounded-md text-white"
+          >
             SELL200
           </button>
         </div>
@@ -38,7 +40,9 @@
             <!-- card area -->
             <div class="flex flex-row w-full gap-5 justify-center items-center">
               <!-- card-1 -->
-              <div class="w-4/12 bg-white flex flex-col gap-5 p-3 rounded-md">
+              <div
+                class="card-1-price cursor-pointer w-4/12 bg-white flex flex-col gap-5 p-3 rounded-md"
+              >
                 <div class="bg-[#f3f3f3] rounded-lg px-12 py-4">
                   <img src="./images/kware1.svg" alt="" class="" />
                 </div>
@@ -55,7 +59,9 @@
                 </div>
               </div>
               <!-- card 2 -->
-              <div class="w-4/12 bg-white flex flex-col gap-5 p-3 rounded-md">
+              <div
+                class="cursor-pointer w-4/12 bg-white flex flex-col gap-5 p-3 rounded-md"
+              >
                 <div class="bg-[#f3f3f3] rounded-lg px-10 py-3">
                   <img src="./images/kware2.svg" alt="" class="" />
                 </div>
@@ -72,7 +78,9 @@
                 </div>
               </div>
               <!-- card 3 -->
-              <div class="w-4/12 bg-white flex flex-col gap-5 p-3 rounded-md">
+              <div
+                class="cursor-pointer w-4/12 bg-white flex flex-col gap-5 p-3 rounded-md"
+              >
                 <div class="bg-[#f3f3f3] rounded-lg px-10 py-4">
                   <img src="./images/home_cooker.svg" alt="" class="" />
                 </div>
@@ -218,7 +226,7 @@
               <input
                 type="text"
                 placeholder="Coupon code"
-                class="pl-3 py-2 border rounded-l-md outline-none"
+                class="coupon-input pl-3 py-2 border rounded-l-md outline-none"
               />
               <button
                 class="px-4 py-2 bg-[#e527b2] text-white font-semibold rounded-r-md"
@@ -229,14 +237,22 @@
           </div>
           <!-- bottom -->
           <div class="bg-white p-4 flex flex-col gap-3 rounded-md">
-            <h1 class="text-xl font-medium leading-10">
+            <div class="purchase-history">
+              <h1 class="text-xl font-medium leading-10">
               1. Home Cooker <br />
               2. Sports cates <br />
               3. Home Cooker
+            </div>
               <hr class="" />
-              Total price: <span class="text-[#888888]">257.00TK</span> <br />
-              Discount : <span class="text-[#888888]">51.40TK </span><br />
-              Total: <span class="text-[#888888]">205.60 TK</span>
+              <div class="total-price">
+                Total price: <span class="text-[#888888]">257.00TK</span> <br />
+              </div>
+              <div class="discount">
+                Discount : <span class="text-[#888888]">51.40TK </span><br />
+              </div>
+              <div class="total">
+                Total: <span class="text-[#888888]">205.60 TK</span>
+              </div>
             </h1>
           </div>
         </div>
